@@ -1,0 +1,26 @@
+.el {
+    background-color: rgba(255, 255, 255, .5);
+    border-radius: 50%;
+    display: block;
+    font-size: 1.5em;
+    line-height: 3em;
+    text-align: center;
+    width: 3em;
+ }
+
+.container {
+
+    display: flex;
+  
+    height: 400px;
+}
+/* Specific colors */
+.red { background-color: red; }
+.blue { background-color: blue; }
+.green { background-color: green; }
+.yellow { background-color: yellow; color: black; }
+.purple { background-color: purple; }
+.orange { background-color: orange; color: black; }
+.cyan { background-color: cyan; color: black; }
+.black { background-color: black; }
+.ginge { background-color: #FF8C00; } /* Dark orange */
