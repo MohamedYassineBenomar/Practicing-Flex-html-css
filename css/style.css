@@ -11,16 +11,25 @@
 .container {
 
     display: flex;
-  
-    height: 400px;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100px;
 }
 /* Specific colors */
-.red { background-color: red; }
-.blue { background-color: blue; }
-.green { background-color: green; }
-.yellow { background-color: yellow; color: black; }
-.purple { background-color: purple; }
-.orange { background-color: orange; color: black; }
-.cyan { background-color: cyan; color: black; }
-.black { background-color: black; }
-.ginge { background-color: #FF8C00; } /* Dark orange */
+.red { 
+    background-color: red; width: 25%; 
+    justify-content: center;
+}
+.blue { background-color: blue; width: 25%; }
+.green { background-color: green; width: 25%; }
+.yellow { background-color: yellow; color: black; width: 25%; }
+.purple { background-color: purple; width: 100%; }
+.orange { background-color: orange; color: black; width: 25%; }
+.cyan { background-color: cyan; color: black; width: 25%; }
+.black { background-color: black; width: 25%; }
+.ginge { background-color: #FF8C00; width: 25%; } /* Dark orange */
+
+.functionement {
+    display: flex;
+    justify-content: center;
+}
