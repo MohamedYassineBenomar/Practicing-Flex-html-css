@@ -9,12 +9,11 @@
  }
 
 .container {
-
     display: flex;
-    align-items: center;
     flex-wrap: wrap;
-    height: 100px;
+    align-items: stretch;
 }
+
 /* Specific colors */
 .red { 
     background-color: red; width: 25%; 
@@ -32,4 +31,12 @@
 .functionement {
     display: flex;
     justify-content: center;
+}
+
+.foto{
+    width: 25%;
+}
+
+img{
+    width: 100%;
 }
